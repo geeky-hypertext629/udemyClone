@@ -1,0 +1,29 @@
+.learnBox{
+    margin-bottom: 3.2rem;
+    margin-top: 3.2rem;
+    border: 1px solid #d1d7dc;
+    padding: 2.4rem 0;
+    width: 50%;
+    margin-left: 10rem;
+}
+.learnBox>h1{
+    margin: 0 2.4rem 1.6rem;
+    font-family: var(--font-stack-heading);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -.02rem;
+    font-size: 2.1rem;
+}
+.specs{
+    margin: 0 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+.first{
+    width: 50%;
+}
+.second{
+    width: 50%;
+}

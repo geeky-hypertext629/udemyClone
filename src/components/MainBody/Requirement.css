@@ -1,0 +1,21 @@
+.requirements{
+    margin-left: 10rem;
+    margin-top: 2rem;
+   
+}
+.requirements>h2{
+    font-weight: 700;
+    letter-spacing: -.02rem;
+    font-size: 1.3rem;
+    padding-bottom: 0px;
+    margin-bottom: 0.5rem;
+}
+
+ul{
+    list-style-type: disc;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+li{
+    padding: 0.2rem;
+}

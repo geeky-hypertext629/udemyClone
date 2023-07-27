@@ -1,0 +1,14 @@
+.companyBox{
+    margin-bottom: 3.2rem;
+    margin-top: 3.2rem;
+    border: 1px solid #d1d7dc;
+    padding: 0px 1rem;
+    width: 50%;
+    margin-left: 10rem;
+}
+.banners{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}

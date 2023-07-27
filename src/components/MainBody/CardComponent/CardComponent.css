@@ -1,0 +1,7 @@
+.rated{
+    display: flex;
+
+}
+.rated>span{
+    margin-right: 0.8rem;
+}

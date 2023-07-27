@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header/Header';
+import UpperBox from "./components/UpperBox/UpperBox.js"
+import FloatingBox from "./components/FloatingBox/FloatingBox.js"
+import MainBody from "./components/MainBody/MainBody.js";
+import Footer from "./components/Footer/Footer.js";
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Header />
+    <UpperBox />
+    <FloatingBox/>
+    <MainBody />
+    <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App

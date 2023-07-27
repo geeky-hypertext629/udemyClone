@@ -1,0 +1,16 @@
+.cards{
+    margin-bottom: 3.2rem;
+    margin-top: 3.2rem;
+    border: 1px solid #d1d7dc;
+    padding: 0;
+    width: 58%;
+    height: 51vh;
+    margin-left: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.course{
+    border: none;
+    margin: 2rem;
+    width: 33%;
+}

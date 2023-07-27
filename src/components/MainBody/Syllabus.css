@@ -1,0 +1,27 @@
+.courseBox{
+    margin-left: 10rem;
+    width: 50vw;
+}
+.courseBox>h2{
+    font-weight: 700;
+    letter-spacing: -.02rem;
+    font-size: 1.3rem;
+    padding-bottom: 0px;
+    margin-bottom: 0.5rem;
+}
+.courseContents{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 22vh;
+    justify-content: center;
+    /* align-items: center; */
+}
+.item{
+    padding: 0.5rem 0px;
+    display: flex;
+    font-size: 0.9rem;
+}
+.desciption{
+    margin-left: 1rem;
+}

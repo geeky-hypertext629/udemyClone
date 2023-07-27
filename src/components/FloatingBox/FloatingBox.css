@@ -1,0 +1,177 @@
+.box{
+    height: 53rem;
+    background-color: pink;
+    width: 22rem;
+    z-index: 5;
+    position: absolute;
+    right: 10rem;
+    /* box-shadow: 2px 2px 2px 2px; */
+    top: 8rem;
+    border: 1px solid while;
+    outline: 1px solid while;
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+    /* border: 2px solid black; */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.videobox{
+    width: 100%;
+    height: 30%;
+    background-image: url(https://www.trio.dev/hubfs/Imported_Blog_Media/7fad34d867a32f732b37534ff013e916-3-2.jpg);
+    background-size: cover;
+    box-shadow: inset 2px white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 6px 3px 3px white inset;
+    cursor: pointer;
+    /* padding-top: 2px; */
+}
+
+.play{
+    transform: scale(3.2);
+    color: aliceblue;
+    /* background-color: black; */
+    position: relative;
+    top: 2.5rem;
+    border-radius: 50px;
+    background-color: black;
+    border: none;
+    outline: none;
+
+    cursor: pointer;    
+}
+.preview{
+    color: white;
+    font-weight: 500;
+    position: relative;
+    top: 2.5rem;
+}
+
+
+
+.selectSection{
+    display: flex;
+}
+.personal{
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+hr{
+    width: 50%;
+    margin-left: 1px;
+}
+
+.purchase{
+    /* text-align: center; */
+    margin: auto;
+    /* padding-left: 1.5rem; */
+}
+.price{
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin: 0.8rem;
+    margin-bottom: 0.1rem;
+}
+
+.percent{
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.off{
+    text-decoration: line-through;
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.offer{
+    color: #cb705b;
+    margin-left: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.offer>b{
+    text-align: center;
+    margin: auto;
+}
+.clock{
+    margin: auto;
+}
+
+.button {
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid;
+    height: 2.8rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.8rem;
+    cursor: pointer;
+  }
+  .signup {
+    background-color: #a435f0;
+    color: white;
+    border-color: #000000;
+  }
+  
+  .signup:hover {
+    background-color: #7241a7;
+  }
+
+  .purchaseLast{
+    margin-left: 0.8rem;
+    padding: 1.2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    font-size: smaller;
+  }
+
+  .courseAction{
+    margin-left: 0.8rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #000000;
+  }
+
+  .secondhr{
+    margin-left: 0.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.2rem;
+    width: 92%;
+    color: gray;
+  }
+  .subscribe{
+    margin-left: 0.8rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 0.1px;
+  }
+  .about{
+    margin-left: 0.8rem;
+    width:90%;
+    font-weight: 100;
+    color: #000000;
+  }
+
+  .secondbtn{
+    background-color: white;
+    color: #000000;
+  }
+  .secondbtn:hover{
+    background-color: rgb(220, 220, 220);
+  }
